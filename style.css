@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display:flex;
+    flex: row;
+    background-color: #222222;
+    gap:80%;
+    padding-left:10%;
+    padding-right:15%;
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+.Logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap:30px;
+}
+.breadcrumbs {
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: right;
+    align-items: center;
+}
+.img {
+    width:100%;
+}
+
+
+
+
+.main {
+    background-color: #F1E4E6;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    height:600px;
+}
+
+.men_img {
+    height:600px;
+}
+
+.text_block {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line {
+    width: 12px;
+    height: 92px;
+    top: 364.9px;
+    left: 864px;
+    background-color:#F16D7F;
+    margin-right: 20px;
+}
+
+.text {
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;  
+    color:linear-gradient(0deg, #222222, #222222),    
+}
+.second {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:linear-gradient(0deg, #222222, #222222),
+}
+.fashion {
+    font-family: "Lato", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+}
+
+
+
+.menu {
+    display:grid;
+    grid-template-rows: 200px 150px;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5%;
+    margin-right:10%;
+    margin-left:10%;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+.women, .men1, .kids, .accessories {
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.women{
+    background-image: url(./img/Group\ 36.png);
+}
+.men1{
+    background-image: url(./img/Group\ 37.jpg);
+}
+.kids {
+    background-image: url(./img/Group\ 38.jpg);
+}
+.accesories {
+    grid-column: 1/4;
+    background-image: url(./img/Group\ 39.jpg);
+    background-size: 103%;
+}
+.block {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sell {
+    font-family: "Lato",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+.for {
+font-family: "Lato",sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+color:#F16D7F;
+}
+
+
+
+
+.catalog {
+    margin-left:10%;
+    margin-right:10%;
+}
+.title1 {
+    font-family: "Lato",sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #222222;
+text-align: center;
+padding-bottom: 2%;
+}
+.title2 {
+    font-family: "Lato",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#9F9F9F;
+text-align: center;
+padding-bottom: 2%;
+}
+.products {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:3%;
+}
+.card {
+    display:flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+}
+.picture1 {
+    width:100%;
+    padding-bottom: 2%;
+}
+.name {
+    font-family: "Lato",sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#000000;
+padding-bottom: 3%;
+padding-left:3%;
+}
+.description {
+    font-family: "Lato",sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: left;
+color:#5D5D5D;
+padding-bottom: 3%;
+padding-left:3%;
+padding-right: 3%;
+}
+.price {
+    font-family: "Lato",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color:#F16D7F;
+padding-bottom: 3%;
+padding-left:3%;
+}
+.button {
+    display:flex;
+    flex-direction: row;
+    margin-top:10%;
+    margin-bottom:10%;
+    align-items: center;
+    justify-content: center;
+}
+.text_button {
+    font-family: "Lato",sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+color: #F26376;
+background-color: #FFFFFF;
+padding:2%;
+border: 1px solid #FF6A6A;
+}
