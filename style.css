@@ -368,10 +368,10 @@ border: 1px solid #FF6A6A;
         max-height: 400px;
         margin-bottom:10%;
     }
-    .text_block {
+    .text_block1 {
         position:absolute;
         top:40%;
-        left:20%;
+        left:15%;
     }
     .text {
         font-size: 38px; 
@@ -409,14 +409,14 @@ border: 1px solid #FF6A6A;
     }
     .sell {
         position: absolute;
-        font-size: 16px;
+        font-size: 14px;
         top: 45%; 
         left: 50%; 
         transform: translate(-50%, -50%);
     }
     .for {
         position: absolute;
-        font-size: 24px;
+        font-size: 20px;
         top: 55%; 
         left: 50%; 
         transform: translate(-50%, -50%);
